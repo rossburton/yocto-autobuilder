@@ -213,7 +213,7 @@ class HelloWorld(ShellCommand):
                 self.lastname=v
             else:
                 setattr(self, k, v)
-        self.description = "Hello World"
+        self.description = ["Hello World",]
         self.command = "echo 'Hello World " + self.firstname + " " + self.lastname + "'"
         ShellCommand.__init__(self, **kwargs)
 

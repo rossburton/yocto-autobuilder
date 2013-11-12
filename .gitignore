@@ -26,3 +26,6 @@ yocto-slave/nightly/build(newcommits)
 yocto-slave/twistd.hostname
 yocto-slave/twistd.log*
 yocto-slave/twistd.pid
+
+yocto-master/ross-*
+yocto-slave/ross-*
